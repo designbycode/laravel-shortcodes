@@ -2,9 +2,9 @@
 
 namespace Designbycode\LaravelShortcodes;
 
+use Designbycode\LaravelShortcodes\Commands\LaravelShortcodesCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Designbycode\LaravelShortcodes\Commands\LaravelShortcodesCommand;
 
 class LaravelShortcodesServiceProvider extends PackageServiceProvider
 {
